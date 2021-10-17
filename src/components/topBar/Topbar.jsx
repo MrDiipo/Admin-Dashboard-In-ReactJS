@@ -1,5 +1,6 @@
 import React from 'react'
 import "./topbar.css"
+import {NotificationsNone, Language, Settings} from '@mui/icons-material';
 
 export default function Topbar() {
     return (
@@ -8,7 +9,26 @@ export default function Topbar() {
           <div className="topLeft">
               <span className="logo">Dipo-Admin</span>
           </div>
-          <div className="topRight">right</div>  
+          <div className="topRight">
+              <div className="topbarIconContainer">
+                  <NotificationsNone/>
+                  <span className="topIconBadge">
+                      2
+                  </span>
+              </div>
+              <div className="topbarIconContainer">
+                  <Language/>
+                  <span className="topIconBadge">
+                      2
+                  </span>
+              </div>
+              <div className="topbarIconContainer">
+                  <Settings/>
+                  <span className="topIconBadge">
+                      2
+                  </span>
+              </div>
+          </div>  
         </div>
         </div>
     )
