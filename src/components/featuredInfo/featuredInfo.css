@@ -30,16 +30,17 @@
 }
 
 .featuredMoneyRate{
-    font-size: 17px;
+    font-size: 20px;
     display: flex;
     align-items: flex-end;
     margin-left: 27px;
 } 
 
 .featuredIcon{
-    font-size: 14px;
+    font-size: 10px;
     margin-left: 5px; 
     color: green;
+    padding-bottom: 8px;
 }
 
 .featuredIcon.negative{
