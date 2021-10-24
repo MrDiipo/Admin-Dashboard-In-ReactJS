@@ -5,7 +5,7 @@ import "./widgetSm.css"
 function WidgetSm() {
     return (
         <div className="widgetSm">
-            
+            Small
         </div>
     )
 }

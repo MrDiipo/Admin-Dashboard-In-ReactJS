@@ -1,8 +1,8 @@
 import React from 'react'
-import "./widgetSm.css"
+import "./widgetLg.css"
 
 
-function WidgetLg() {
+function WidgetLg() { 
     return (
         <div className="widgetLg">
             
